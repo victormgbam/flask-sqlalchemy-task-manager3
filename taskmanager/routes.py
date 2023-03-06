@@ -53,7 +53,7 @@ def add_task():
             due_date=request.form.get("due_date"), 
             category_id=request.form.get("category_id")
         )
-        category = Category(Category_name=request.form.get("category_name"))
+        category = Category(Category_name=request.form.get("Category_name"))
         db.session.add(task)
         db.session.commit()
         return redirect(url_for("home"))
