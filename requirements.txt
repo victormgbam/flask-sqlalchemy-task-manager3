@@ -4,5 +4,5 @@ Flask-SQLAlchemy==2.5.1
 greenlet==2.0.2
 itsdangerous==2.1.2
 psycopg2==2.9.5
-SQLAlchemy==2.0.4
+SQLAlchemy==1.4.46
 Werkzeug==2.2.3
